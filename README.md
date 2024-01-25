@@ -20,9 +20,15 @@ The pursuit of happiness is one of the most important human needs around the wor
 
 The work uses open data source from Kaggle, and originally from a Gallup survey, the results of which concern the assessment of the quality of life. The regression modeling study was performed using R and the tidymodels package, comparing 23 different models. People feel the greatest level of well-being when they can live a long, healthy life and have their material needs met. The model with the xgboost algorithm and appropriately selected parameters turned out to be the best in predicting well-being.
 
-![Data Features]()
-![World Happiness Ranking]()
-![Regression Models Ranking]()
+Data Set Feature Descriptive Analysis:
+![Data Features](/w16.png)
+
+World Happiness Ranking by Country:
+![World Happiness Ranking](/w19.png)
+
+Regression Models Ranking by RMSE metric (the lower the better one):
+![Regression Models Ranking](/w23.png)
+Here, the boosted tree regression model with tuned hyperparameters was the best one.
 
 ## Data sources and AI methods
 
